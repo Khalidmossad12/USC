@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 import "./styles/global.css";
 import NavBar from "./components/NavBar";
@@ -14,7 +14,7 @@ import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <NavBar />
       <main>
         <Routes>
@@ -29,7 +29,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
