@@ -3,6 +3,7 @@ import { SERVICES } from "../data/project";
 export default function HomePage() {
   return (
     <>
+    
       {/* ── HERO ── */}
       <section className="hero-section text-center">
         <div className=" position-relative w-100" style={{ zIndex: 1 }}>
