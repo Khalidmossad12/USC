@@ -1,16 +1,111 @@
-# React + Vite
+# United for Systems, Communications & Electromechanical Works (USC)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Official company website built with React.js, Vite, Bootstrap, and React Router.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://khalidmossad12.github.io/USC/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 About
 
-## Expanding the ESLint configuration
+USC is a company specialized in:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Fire Alarm Systems
+- Fire Fighting Systems
+- Water Mist Systems
+- FM200 & CO₂ Systems
+- CCTV Surveillance Systems
+- Access Control Systems
+- Intrusion Alarm Systems
+- Electromechanical Works
+
+The website showcases company services, projects, clients, suppliers, and contact information.
+
+---
+
+## 🚀 Features
+
+- Responsive Design
+- Modern UI/UX
+- React Router Navigation
+- Company Portfolio
+- Projects Showcase
+- Services Section
+- Clients & Suppliers Pages
+- Contact Page
+
+---
+
+## 🛠️ Built With
+
+- React.js
+- Vite
+- React Router
+- Bootstrap 5
+- CSS3
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+├── assets/
+├── components/
+├── pages/
+├── data/
+├── styles/
+└── App.jsx
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Khalidmossad12/USC.git
+```
+
+Navigate to project directory:
+
+```bash
+cd USC
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## 📞 Contact
+
+United for Systems, Communications & Electromechanical Works
+
+Website:
+https://khalidmossad12.github.io/USC/
+
+GitHub:
+https://github.com/Khalidmossad12
+
+---
+
+## © Copyright
+
+All rights reserved © USC
