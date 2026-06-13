@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logoImg from "../assets/logo.png";
 
 const links = [
   { to: "/", label: "الرئيسية" },
@@ -20,8 +21,8 @@ export default function Footer() {
             <div className="d-flex align-items-center gap-2 mb-3">
               <div
                 style={{
-                  width: 42,
-                  height: 42,
+                  width: 60,
+                  height: 60,
                   background: "white",
                   borderRadius: "50%",
                   display: "flex",
@@ -31,44 +32,19 @@ export default function Footer() {
                   padding: 4,
                 }}
               >
-                <svg
-                  viewBox="0 0 100 100"
-                  fill="none"
-                  style={{ width: 34, height: 34 }}
-                >
-                  <circle
-                    cx="50"
-                    cy="50"
-                    r="38"
-                    stroke="#4a90d9"
-                    strokeWidth="2"
-                    fill="none"
-                  />
-                  <circle
-                    cx="50"
-                    cy="50"
-                    r="28"
-                    stroke="#4a90d9"
-                    strokeWidth="1.5"
-                    fill="none"
-                  />
-                  <circle
-                    cx="50"
-                    cy="50"
-                    r="18"
-                    stroke="#4a90d9"
-                    strokeWidth="1.5"
-                    fill="none"
-                  />
-                  <circle cx="50" cy="50" r="3" fill="#4a90d9" />
-                </svg>
+                <img
+                  src={logoImg}
+                  alt="Al Muttahida Systems"
+                  className="logo-img"
+                />
               </div>
               <div>
                 <div className="footer-brand-name">
-                  المتحدة للأنظمة والاتصالات
+                  المتحدة للأنظمة والاتصالات والاعمال الكهروميكانيكية
                 </div>
                 <div className="footer-brand-sub">
-                  Al Muttahida Systems — Est. 2007
+                  United for Systems, Communications and Electromechanical Works
+                  — Est. 2007
                 </div>
               </div>
             </div>
