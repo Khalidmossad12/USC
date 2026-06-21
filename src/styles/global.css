@@ -140,6 +140,56 @@ body {
   background: #2a6abf !important;
 }
 
+.navbar-toggler {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.navbar-toggler:focus {
+  /* outline: none !important; */
+  box-shadow: none !important;
+}
+/* mobile menu background */
+@media (max-width: 1162px) and (min-width: 992px) {
+  .brand-name {
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 991px) {
+  /* mobile menu */
+@media (max-width: 991px) {
+  .main-navbar {
+    position: fixed;
+  }
+  .navbar-collapse.show {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    background: rgba(10, 42, 94, 0.97);
+    padding: 16px 20px;
+    margin-top: 0;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+  }
+  .navbar-collapse .nav-item {
+    text-align: center;
+  }
+  .nav-link-cta {
+    display: inline-block;
+    margin-top: 8px;
+  }
+}
+}
+@media (max-width: 400px) {
+  .navbar-brand {
+    gap: 6px !important;
+  }
+  .brand-name {
+    font-size: 10px !important;
+  }
+  .brand-sub {
+    display: none !important;
+  }
+}
 /* ═══════════════════════════════════════
    PAGE TOP PADDING (fixed navbar)
 ═══════════════════════════════════════ */
